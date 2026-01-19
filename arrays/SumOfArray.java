@@ -4,15 +4,19 @@ import java.util.*;
 
 class SumOfArray
 {
-	public static void main (String[] args)
+    public static void main (String[] args)
+    {
+	int[] arr = {10, 20, 30, 40, 50};
+	//Create an array of integers
+	int sum = 0;
+	// create a variable for sum of elements and set it to 0
+	for (int i = 0; i < arr.length; i++)
+	//for every element in the array execute the following code
 	{
-		int[] arr = {10, 20, 30, 40, 50};
-		int sum = 0;
-		for (int i = 0; i < arr.length; i++)
-		{
-		    sum = sum + arr[i];
-		}
-		    System.out.println(sum);
-
+	    sum = sum + arr[i];
+	    //add the ith element to the sum
+	}
+	    System.out.println(sum);
+	    //print the sum once the loop is done iterating
 	}
 }
