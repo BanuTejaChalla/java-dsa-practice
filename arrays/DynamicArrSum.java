@@ -8,9 +8,12 @@ public static void main (String[] args) throws java.lang.Exception
 	int size = scn.nextInt();
 	int sum = 0;
 	int[] arr = new int[size];
+	//Creating an array. By default the values of array will be 0s
         for (int i = 0; i < size; i++)
         {
-            arr[i] = scn.nextInt();
+            //For each value of i (index) one integer would be taken as an input
+	    arr[i] = scn.nextInt();
+	    //This is basically the part where the input for the array is taken
         }
         for (int i = 0; i < size; i++)
         {
