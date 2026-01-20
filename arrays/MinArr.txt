@@ -1,0 +1,23 @@
+import java.util.*;
+class MinArr
+{
+    public static void main (String[] args)
+    {
+	Scanner scn = new Scanner(System.in);
+	int size = scn.nextInt();
+	int[] arr = new int[size];
+	for(int i = 0; i < size; i++)
+	{
+	    arr[i] = scn.nextInt();
+	}
+	int min = arr[0];
+	for(int i = 1; i < size; i++)
+	{
+	    if(min > arr[i])
+	    {
+	        min = arr[i];
+	    }
+	}
+	System.out.println(min);
+    }
+}
