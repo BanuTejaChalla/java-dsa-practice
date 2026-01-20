@@ -1,3 +1,4 @@
+//everything is exactly the same as the MaxArr Program
 import java.util.*;
 class MinArr
 {
@@ -16,6 +17,7 @@ class MinArr
 	    if(min > arr[i])
 	    {
 	        min = arr[i];
+		//if the ith index element of the array is smaller than the current min element, it is replaced. else it remains the same
 	    }
 	}
 	System.out.println(min);
