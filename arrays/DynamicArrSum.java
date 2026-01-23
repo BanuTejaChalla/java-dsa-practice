@@ -2,7 +2,7 @@ import java.util.*;
 
 class DynamicArrSum
 {
-public static void main (String[] args) throws java.lang.Exception
+public static void main (String[] args)
 {
 	Scanner scn = new Scanner(System.in);
 	int size = scn.nextInt();
