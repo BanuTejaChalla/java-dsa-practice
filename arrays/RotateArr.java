@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ShiftArr
+class RotateArr
 {
     public static void main (String[] args)
     {   
